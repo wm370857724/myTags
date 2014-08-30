@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>myTags demo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	body{font-family:'Microsoft Yahei';}
+	</style>
+</head>
+<body>
+	<div class="tagsColorful"><em>关于我：</em><span>全程经验</span><span>10万平米</span><span>住宅地产</span></div>
+
+	<input class="myTags" value="底层协议,硅基芯片,tcp/ip" data-old-value="afas asd ,阿斯蒂芬" />
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="my.Tags.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$(".myTags").myTags();
+	});
+	</script>
+</body>
+</html>
